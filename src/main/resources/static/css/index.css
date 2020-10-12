@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@100;200;300;400;500;600;700;800&display=swap');
+
+body {
+	font-family: 'Commissioner', sans-serif;
+}
+
+.header {
+	background-image: url("../images/background.jpg");
+	background-size: cover;
+	position: relative;
+	height: 100vh;
+}
+
+.header h1 {
+	color: #fff;
+	font-size: 32px;
+	font-weight: 500;
+	text-transform: uppercase;
+	border: 4px solid #fff;
+	width: 50%;
+	padding: 26px;
+	text-align: center;
+	margin: 48px auto 0;
+	border-radius: 25px 0 25px 0;
+	text-shadow: 2px 2px 2px black;
+	box-shadow: 1px 1px 1px black;
+}
+
+#sobre {
+	background-color: #4CB952;
+}
+
+#sobre p {
+	font-size: 14px;
+}
+
+#contato {
+	background-color: #126638;
+}
+
+footer {
+	background-color: #1C2923;
+}
+
+div.icone {
+	width: 100%;
+}
+
+div.icone img {
+	width: 30px;
+	display: block;
+	margin: 0 auto;
+	padding: 10px 0;
+}
+
+div.icone span {
+	text-align: center;
+	display: block;
+	color: #fff;
+}
+
+.button {
+	background-color: #126638;
+	font-weight: 700;
+	color: #fff;
+}
+
+.button:hover {
+	animation-name: buttonHover;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+}
+
+.button:active {
+	outline-style: none;
+}
+
+@keyframes buttonHover {
+	to {
+		color: #4CB952;
+		transform: scale(2px);
+		box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+	}
+}
+
+
+@media (min-width: 767px) {
+	.header h1 {
+		margin-top: 32px;
+		font-size: 32px;
+	}
+}
+
+@media (min-width: 991px) {
+	div.icone {
+		width: 50%;
+	}
+	
+	div.icone img {
+		width: 50px;
+	}
+}
+
+
+@media (min-width: 1024px) {
+	.header h1 {
+		margin-top: 60px;
+	}
+	
+}
+
+@media (min-width: 1365px) {
+	.header h1 {
+		margin-top: 150px;
+		font-size: 48px;
+	}
+}
