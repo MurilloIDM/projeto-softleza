@@ -8,7 +8,7 @@
 
 # 🚀 Apresentação
 
-Em desenvolvimento ...
+Aguarde, Em desenvolvimento ...
 
 
 ## 🧰 Sobre
