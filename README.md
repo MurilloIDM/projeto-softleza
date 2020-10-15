@@ -19,7 +19,7 @@ Projeto **SoftLeza** ...
 
 ## 📚 Tecnologias utilizadas
 
-O projeto foi desenvolvido as seguintes tecnologias
+O projeto foi desenvolvido com as seguintes tecnologias
 
 - [spring](https://spring.io/projects/spring-boot)
 - [thymeleaf](https://www.thymeleaf.org/)
