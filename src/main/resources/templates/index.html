@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="utf-8">
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+	integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+	crossorigin="anonymous">
+<link rel="stylesheet" th:href="@{/css/index.css}">
+<title>Nome do Salão</title>
+</head>
+<body>
+	<header class="header" th:include="fragments/homeModel :: navbar">
+	</header>
+
+	<main>
+		<section id="sobre">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 col-lg-6">
+						<div class="w-100 my-3 text-justify">
+							<p class="my-0 mb-3">
+								O salão <b>NOME DO LUGAR</b> começou suas atividades em YYYY, quando sua
+								fundadora, NOME DA FUNDADORA DO LUGAR, ainda tinha apenas um sonho
+								em mente. Ao decorrer dos anos, a partir do trabalho e do esforço de uma
+								equipe, o estabelecimento ganhou seu reconhecimento no mercado de estética,
+								havendo uma enorme quantidade de clientes recorrentes.
+							</p>
+							<p class="my-0 mb-3">
+								A criação do sistema <b><u>Softleza</u></b> é uma das apostas para o crescimento
+								e expansão do salão. É uma preocupação em criar e gerar valor para as clientes,
+								facilitando o acesso a horários e serviços. 
+							</p>
+							<p class="my-0">
+								Se é cliente nova por aqui, clique no botão abaixo para se registrar. O processo é
+								gratuito e te dá acesso a uma variadade de serviços prestadas no salão. Depois se tornar
+								simples, basta acessar, selecionar, marcar e confirmar o meio de pagamento.
+								<br /><br />
+								Pronto, você pode ser uma mulher poderosa!
+							</p>
+							
+							<a href="/login" class="btn button mx-auto mt-2 d-block w-50">Cadastre-se!</a>
+						</div>
+					</div>
+					<div class="col-md-12 col-lg-6">
+						<img src="../images/imagem-1.jpg" class="w-100 py-3 rounded" />
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="contato">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 col-lg-6">
+						<p class="my-2 text-center text-white lead">Onde estamos</p>
+						<a href="https://goo.gl/maps/wvHuqAnxxnBjVbUd6" target="_blank" class="d-block">
+							<img src="../images/maps.png" alt="Endereço no Google Maps" class="d-block my-3 mx-auto w-75 rounded"/>
+						</a>
+					</div>
+					<div class="col-md-12 col-lg-6">
+						<p class="my-2 text-center text-white lead">Entre em contato</p>
+						<div class="d-flex flex-row flex-wrap justify-content-between w-50 mx-auto my-3">
+							<div class="icone">
+								<a href="#"><img src="images/icones/instagram.png" /></a>
+								<span>Instagram</span>
+							</div>
+							<div class="icone">
+								<a href="#"><img src="images/icones/twitter.png" /></a>
+								<span>Twitter</span>
+							</div>
+							<div class="icone">
+								<a href="#"><img src="images/icones/youtube.png" /></a>
+								<span>YouTube</span>
+							</div>
+							<div class="icone">
+								<a href="#"><img src="images/icones/whatsapp.png" /></a>
+								<span>WhatsApp</span>
+							</div>
+							<div class="icone">
+								<a href="#"><img src="images/icones/telefone.png" /></a>
+								<span>Telefone</span>
+							</div>
+							<div class="icone">
+								<a href="#"><img src="images/icones/email.png" /></a>
+								<span>Email</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<footer th:include="fragments/homeModel :: footer" class="footer"></footer>
+
+
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+		crossorigin="anonymous"></script>
+	<script
+		src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+		integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+		crossorigin="anonymous"></script>
+	<script
+		src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+		integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+		crossorigin="anonymous"></script>
+</body>
+</html>
